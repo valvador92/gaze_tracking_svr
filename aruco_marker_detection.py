@@ -7,7 +7,7 @@ in order to gather data to train the SVR regression.
 
 from typing import Tuple
 
-from WorldCameraOpening import WorldCameraFrame
+from world_camera_opening import world_camera_frame
 import cv2
 import cv2.aruco as aruco
 import numpy as np
