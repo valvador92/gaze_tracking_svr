@@ -119,7 +119,7 @@ def detect_pupils_and_markers() -> None:
     out_world = cv2.VideoWriter('world.avi', fourcc, 60, (1280, 720))
     
     while True:
-        cap_left, cap_right = EyeCameraFrame()
+        cap_left, cap_right = eye_camera_frame()
         
         # Note: Replace `threshold_value` with the appropriate value for thresholding
         threshold_value = 40

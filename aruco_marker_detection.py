@@ -28,7 +28,7 @@ def world_coord() -> Tuple[float, float, np.ndarray, bool]:
     """
     
     # Capturing each frame of our video stream
-    rgb_image = WorldCameraFrame()
+    rgb_image = world_camera_frame()
     
     # Convert image to grayscale
     gray_image = cv2.cvtColor(rgb_image, cv2.COLOR_BGR2GRAY)

@@ -9,6 +9,7 @@ from typing import Tuple
 
 import cv2
 import uvc
+import numpy as np
 
 logging.basicConfig(level=logging.INFO)
 
